@@ -1,0 +1,36 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+
+data/raw/
+data/cache/
+*.db
+*.sqlite
+*.sqlite3
+
+.pytest_cache/
+.streamlit/secrets.toml
+
+.vscode/
+
+# Development/generated prediction data
+data/training_dataset.csv
+data/analysis/
+data/backtests/
+data/features/
+
+# Historical model analysis / legacy models
+data/models/2025_level_analysis.csv
+data/models/2025_prediction_analysis.csv
+data/models/logistic_regression.joblib
+data/models/logistic_regression_2025_predictions.csv
+data/models/logistic_regression_features.joblib
+
+# Prediction backups
+data/predictions/2026_prediction_history_backup_before_fbs_cleanup.csv
+
+# Old application backups / notes
+app/app_backup.py
+app/app_old.py.py
+app/read me commands
